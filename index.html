@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Your Title Here</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', serif;
+            font-weight: 400;
+            color: #333;
+        }
+
+        strong {
+            font-weight: 600;
+        }
+
+        .page {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .content {
+            padding: 0 20px;
+            max-width: 520px;
+        }
+
+        .profile-photo {
+            max-width: 130px;
+            margin: 0 auto;
+        }
+
+        .profile-photo img {
+            max-width: 100%;
+            border-radius: 100%;
+        }
+
+        .name h1 {
+            font-weight: 800;
+            margin-top: 0.5em;
+            font-size: 2em;
+            text-align: center;
+        }
+
+        .links {
+            margin-top: 40px;
+        }
+
+        .btn {
+            background-color: #343a40;
+            border-color: #343a40;
+            border-radius: 6px;
+            border: 1px solid transparent;
+            color: #fff;
+            cursor: pointer;
+            display: block;
+            font-size: 1.2em;
+            font-weight: 600;
+            line-height: 1.428571429;
+            padding: 10px 16px;
+            text-align: center;
+            white-space: nowrap;
+            text-decoration: none;
+            margin: 10px 0;
+        }
+
+        .btn:hover {
+            background-color: #23272b;
+            border-color: #1d2124;
+        }
+
+        .btn:focus {
+            box-shadow: 0 0 0 .2rem rgba(52,58,64,.5)
+        }
+
+        .btn:active {
+            background-color: #1d2124;
+            border-color: #171a1d;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <div class="content">
+            <div class="profile-photo">
+                <img src="me.png">
+            </div>
+            <div class="name">
+                <h1>Your Name</h1>
+            </div>
+            <div class="about">
+                <strong>Your name here</strong> can add a short and simple bio here, or delete this section altogether. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ligula libero, feugiat et sollicitudin ut, laoreet vel nisi. Fusce viverra turpis fringilla mi interdum, nec scelerisque eros ultricies. 
+            </div>
+            <div class="links">
+                <a href="http://example.com/" class="btn">Twitch</a>
+                <a href="http://example.com/" class="btn">Portfolio</a>
+                <a href="http://example.com/" class="btn">Instagram</a>
+                <a href="http://example.com/" class="btn">Twitter</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
